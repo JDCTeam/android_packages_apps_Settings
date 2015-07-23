@@ -64,6 +64,8 @@
             <intent android:action="android.intent.action.MAIN"
                     android:targetPackage="com.android.settings.jdcteam"
                     android:targetClass="com.android.settings.jdcteam.BugReport" />
+        </Preference>
+        
 
         <!-- Change Log -->
         <PreferenceScreen android:key="changelog"
