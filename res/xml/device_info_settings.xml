@@ -60,7 +60,7 @@
         <!-- Bug report -->
         <Preference android:key="bug_report"
             android:title="@string/bug_report_activity"
-            android:summary="@string/bug_report_activity_sum" >
+            android:summary="@string/bug_report_activity_summary" >
             <intent android:action="android.intent.action.MAIN"
                     android:targetPackage="com.android.settings.jdcteam"
                     android:targetClass="com.android.settings.jdcteam.BugReport" />
