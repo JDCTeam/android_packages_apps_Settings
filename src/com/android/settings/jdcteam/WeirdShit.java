@@ -99,7 +99,7 @@ import com.android.settings.R;
                 mask2.setVisibility(View.GONE);
                 mask3.setVisibility(View.GONE);
                 toast = new Toast(this);
-                toast.makeText(this, R.string.toast_higgs Toast.LENGTH_LONG).show();
+                toast.makeText(this, R.string.toast_higgs, Toast.LENGTH_LONG).show();
                 break;
         }
     }
