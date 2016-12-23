@@ -18,6 +18,7 @@ package com.android.settings;
 
 import android.app.Activity;
 import android.app.ActivityManager;
+import android.app.ThemeManager;
 import android.app.UiModeManager;
 import android.app.WallpaperManager;
 import android.app.admin.DevicePolicyManager;
@@ -53,6 +54,7 @@ import com.android.internal.util.jdcteam.jdcUtils;
 import com.android.internal.view.RotationPolicy;
 import com.android.settings.accessibility.ToggleFontSizePreferenceFragment;
 import com.android.settings.dashboard.SummaryLoader;
+import com.android.settings.display.ThemePreference;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
 import com.android.settingslib.RestrictedLockUtils;
@@ -89,6 +91,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private static final String KEY_DOZE = "doze";
     private static final String KEY_DOZE_DEVICE = "doze_device";
     private static final String KEY_TAP_TO_WAKE = "tap_to_wake";
+    private static final String KEY_THEME = "theme";
     private static final String KEY_AUTO_BRIGHTNESS = "auto_brightness";
     private static final String KEY_AUTO_ROTATE = "auto_rotate";
     private static final String KEY_NIGHT_DISPLAY = "night_display";
@@ -100,6 +103,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
 
     private Preference mFontSizePref;
 
+    private ThemePreference mThemePreference;
     private TimeoutListPreference mScreenTimeoutPreference;
     private ListPreference mNightModePreference;
     private Preference mScreenSaverPreference;
@@ -286,6 +290,22 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
             mNightModePreference.setValue(String.valueOf(currentNightMode));
             mNightModePreference.setOnPreferenceChangeListener(this);
         }
+
+        mThemePreference = (ThemePreference) findPreference(KEY_THEME);
+        if (mThemePreference != null) {
+            final int accentColorValue = Settings.Secure.getInt(getContext().getContentResolver(),
+                    Settings.Secure.THEME_ACCENT_COLOR, 0);
+            final int primaryColorValue = Settings.Secure.getInt(getContext().getContentResolver(),
+                    Settings.Secure.THEME_PRIMARY_COLOR, 0);
+            mThemePreference.setSummary(PreviewSeekBarPreferenceFragment.getInfoText(getContext(),
+                    false, accentColorValue, primaryColorValue) + ", " +
+                    PreviewSeekBarPreferenceFragment.getInfoText(getContext(), true,
+                    accentColorValue, primaryColorValue));
+            if (ThemeManager.isOverlayEnabled()) {
+                mThemePreference.setEnabled(false);
+                mThemePreference.setSummary(R.string.oms_enabled);
+            }
+        }
     }
     }
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      }
@@ -412,6 +432,20 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
             int value = Settings.Secure.getInt(getContentResolver(), CAMERA_GESTURE_DISABLED, 0);
             mCameraGesturePreference.setChecked(value == 0);
         }
+        if (mThemePreference != null) {
+            final int accentColorValue = Settings.Secure.getInt(getContext().getContentResolver(),
+                    Settings.Secure.THEME_ACCENT_COLOR, 0);
+            final int primaryColorValue = Settings.Secure.getInt(getContext().getContentResolver(),
+                    Settings.Secure.THEME_PRIMARY_COLOR, 0);
+            mThemePreference.setSummary(PreviewSeekBarPreferenceFragment.getInfoText(getContext(),
+                    false, accentColorValue, primaryColorValue) + ", " +
+                    PreviewSeekBarPreferenceFragment.getInfoText(getContext(), true,
+                    accentColorValue, primaryColorValue));
+            if (ThemeManager.isOverlayEnabled()) {
+                mThemePreference.setEnabled(false);
+                mThemePreference.setSummary(R.string.oms_enabled);
+            }
+        }
     }
 
     private void updateScreenSaverSummary() {
@@ -475,6 +509,20 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
                 uiManager.setNightMode(value);
             } catch (NumberFormatException e) {
                 Log.e(TAG, "could not persist night mode setting", e);
+            }
+        }
+        if (mThemePreference != null) {
+            final int accentColorValue = Settings.Secure.getInt(getContext().getContentResolver(),
+                    Settings.Secure.THEME_ACCENT_COLOR, 0);
+            final int primaryColorValue = Settings.Secure.getInt(getContext().getContentResolver(),
+                    Settings.Secure.THEME_PRIMARY_COLOR, 0);
+            mThemePreference.setSummary(PreviewSeekBarPreferenceFragment.getInfoText(getContext(),
+                    false, accentColorValue, primaryColorValue) + ", " +
+                    PreviewSeekBarPreferenceFragment.getInfoText(getContext(), true,
+                    accentColorValue, primaryColorValue));
+            if (ThemeManager.isOverlayEnabled()) {
+                mThemePreference.setEnabled(false);
+                mThemePreference.setSummary(R.string.oms_enabled);
             }
         }
         return true;
