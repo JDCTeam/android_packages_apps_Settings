@@ -1,4 +1,4 @@
-/*
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   /*
  * Copyright (C) 2010 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -257,6 +257,8 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
                                     currentUser);
                     vrDisplayPref.setValueIndex(current);
                     vrDisplayPref.setOnPreferenceChangeListener(new OnPreferenceChangeListener() {
+
+
                         @Override
                         public boolean onPreferenceChange(Preference preference, Object newValue) {
                             int i = Integer.parseInt((String) newValue);
@@ -285,7 +287,8 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
             mNightModePreference.setOnPreferenceChangeListener(this);
         }
     }
-
+    }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     }
     private static boolean allowAllRotations(Context context) {
         return Resources.getSystem().getBoolean(
                 com.android.internal.R.bool.config_allowAllRotations);
