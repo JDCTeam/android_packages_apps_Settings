@@ -130,13 +130,18 @@
         android:title="@string/tap_to_wake"
         android:summary="@string/tap_to_wake_summary" />
 
+    <com.liquid.liquidlounge.preferences.SystemSettingSwitchPreference
+        android:key="home_wake_button"
+        android:title="@string/home_wake_button_title"
+        android:summary="@string/home_wake_button_summary" />
+
     <Preference
         android:key="vr_display_pref"
         android:title="@string/display_vr_pref_title"
         android:fragment="com.android.settings.display.VrDisplayPreferencePicker" />
 
-    <PreferenceCategory 
-        android:key="dashboard_category" 
+    <PreferenceCategory
+        android:key="dashboard_category"
         android:title="@string/dashboard_category">
 
         <ListPreference
@@ -242,7 +247,7 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:title="@string/corners_category" > 
+        android:title="@string/corners_category" >
 
         <com.liquid.liquidlounge.preferences.SecureSettingSwitchPreference
             android:key="sysui_rounded_fwvals"
