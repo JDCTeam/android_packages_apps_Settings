@@ -25,13 +25,7 @@
     <PreferenceCategory
         android:key="ambient_display_category_when_to_show"
         android:title="@string/ambient_display_category_triggers">
-
-        <SwitchPreference
-            android:key="ambient_display_always_on"
-            android:title="@string/doze_always_on_title"
-            android:summary="@string/doze_always_on_summary"
-            settings:controller="com.android.settings.display.AmbientDisplayAlwaysOnPreferenceController" />
-
+	
         <Preference
             android:key="ambient_display_double_tap"
             android:title="@string/ambient_display_title"

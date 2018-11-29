@@ -32,6 +32,13 @@
         <intent android:action="com.android.intent.action.SHOW_BRIGHTNESS_DIALOG" />
     </com.android.settingslib.RestrictedPreference>
 
+
+    <SwitchPreference
+        android:key="ambient_display_always_on"
+        android:title="@string/doze_always_on_title"
+        android:summary="@string/doze_always_on_summary"
+        settings:controller="com.android.settings.display.AmbientDisplayAlwaysOnPreferenceController" />
+
     <com.android.settings.display.NightDisplayPreference
         android:key="night_display"
         android:title="@string/night_display_title"
