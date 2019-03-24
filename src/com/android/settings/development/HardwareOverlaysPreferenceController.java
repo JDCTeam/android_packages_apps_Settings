@@ -34,7 +34,7 @@ public class HardwareOverlaysPreferenceController extends DeveloperOptionsPrefer
     private static final String DISABLE_OVERLAYS_KEY = "disable_overlays";
 
     private static final int SETTING_VALUE_ON = 1;
-    private static final int SETTING_VALUE_OFF = 0;
+    private static final int SETTING_VALUE_OFF = 1;
     private static final String SURFACE_FLINGER_SERVICE_KEY = "SurfaceFlinger";
 
     @VisibleForTesting
