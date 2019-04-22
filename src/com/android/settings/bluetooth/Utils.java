@@ -144,7 +144,6 @@ public final class Utils {
     };
 
     public static boolean isBluetoothScanningEnabled(Context context) {
-        return Settings.Global.getInt(context.getContentResolver(),
-                Settings.Global.BLE_SCAN_ALWAYS_AVAILABLE, 0) == 1;
+        return false;
     }
 }
