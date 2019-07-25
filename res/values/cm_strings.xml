@@ -23,6 +23,9 @@
     <string name="changelog_loading">Loading changelog\u2026</string>
     <string name="changelog_error">Unable to load changelog</string>
 
+    <string name="jdcteam">Regards, JDCTeam and Slack Optimized LineageOS 16 main team</string>
+
+
     <!-- Advanced restart options -->
     <string name="advanced_reboot_title">Advanced restart</string>
     <string name="advanced_reboot_summary">When unlocked, include options in the power menu for restarting into recovery or bootloader</string>
