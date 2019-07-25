@@ -20,6 +20,8 @@
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
     <string name="suggestion_button_close">Close</string>
 
+    <string name="jdcteam">Regards, JDCTeam and Slack Optimized LineageOS 17.1 main team</string>
+
     <!-- Advanced restart options -->
     <string name="advanced_reboot_title">Advanced restart</string>
     <string name="advanced_reboot_summary">When unlocked, include options in the power menu for restarting into recovery or bootloader</string>
