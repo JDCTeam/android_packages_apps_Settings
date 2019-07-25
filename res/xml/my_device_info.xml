@@ -170,5 +170,14 @@
         android:title="@string/build_number"
         android:summary="@string/summary_placeholder"
         settings:allowDividerAbove="true"/>
+	
+    <!-- Change Log -->
+    <PreferenceScreen 
+	android:key="changelog"
+	android:order="44"
+        android:title="@string/changelog_title"
+        android:summary="@string/changelog_summary"
+        android:fragment="com.android.settings.optlos.ChangeLog" >
+    </PreferenceScreen>
 
 </PreferenceScreen>
