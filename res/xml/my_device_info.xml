@@ -28,7 +28,7 @@
         android:selectable="false"
         settings:isPreferenceVisible="false"/>
 	
-    <com.android.settings.applications.LayoutPreference
+    <com.android.settingslib.widget.LayoutPreference
         android:key="my_device_info_header_jdc"
         android:order="1"
         android:layout="@layout/settings_entity_header_jdc"
