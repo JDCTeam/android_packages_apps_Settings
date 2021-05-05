@@ -54,7 +54,7 @@
         android:title="@string/unlock_scramble_pin_layout_title"
         android:summary="@string/unlock_scramble_pin_layout_summary" />
 
-    <com.jdc.settings.preferences.SystemSettingSwitchPreference
+    <com.android.settings.jdc.preferences.SystemSettingSwitchPreference
         android:key="lockscreen_battery_info"
         android:title="@string/lockscreen_battery_info_title"
         android:summary="@string/lockscreen_battery_info_summary"
