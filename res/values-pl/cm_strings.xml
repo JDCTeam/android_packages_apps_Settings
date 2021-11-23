@@ -42,7 +42,6 @@
     <string name="heads_up_notifications_enabled_summary">Wyświetlaj ważne powiadomienia w małym oknie pływającym</string>
     <string name="high_touch_sensitivity_title">Wysoka czułość dotyku</string>
     <string name="high_touch_sensitivity_summary">Zwiększa czułość ekranu dotykowego, więc możesz go używać podczas noszenia rękawiczek</string>
-    <string name="device_hostname">Nazwa hosta urządzenia</string>
     <string name="increasing_ring_volume_option_title">Narastająca głośność dzwonka</string>
     <string name="increasing_ring_min_volume_title">Głośność początkowa</string>
     <string name="increasing_ring_ramp_up_time_title">Wydłużenie odstępu</string>
@@ -77,4 +76,5 @@
     <string name="volume_link_notification_title">Połącz głośność dzwonka i powiadomień</string>
     <string name="wake_when_plugged_or_unplugged_title">Wybudź przy podłączaniu</string>
     <string name="wake_when_plugged_or_unplugged_summary">Włącz ekran podczas podłączania i odłączania od źródła zasilania</string>
+    <string name="peak_refresh_rate_summary_custom">W przypadku niektórych treści automatycznie podwyższa częstotliwość odświeżania z 60 na %1$d Hz. Zwiększa zużycie baterii.</string>
 </resources>

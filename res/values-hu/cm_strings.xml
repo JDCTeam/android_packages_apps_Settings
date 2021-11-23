@@ -45,7 +45,6 @@
     <string name="heads_up_notifications_enabled_summary">Kiemelt értesítések megjelenítése egy kis lebegő ablakban</string>
     <string name="high_touch_sensitivity_title">Magas érintési érzékenység</string>
     <string name="high_touch_sensitivity_summary">Érintőképernyő érzékenységének növelése, így kesztyű viselése esetén is használható</string>
-    <string name="device_hostname">Eszköz elérési neve</string>
     <string name="increasing_ring_volume_option_title">Emelkedő csengőhang</string>
     <string name="increasing_ring_min_volume_title">Kezdeti hangerő</string>
     <string name="increasing_ring_ramp_up_time_title">Felfutási idő</string>
@@ -68,6 +67,8 @@
     <string name="app_notification_sound_timeout_value_5_minutes">5 perc</string>
     <string name="app_notification_sound_timeout_value_15_minutes">10 perc</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 perc</string>
+    <string name="auto_brightness_one_shot_title">Egylövéses automata-fényerő</string>
+    <string name="auto_brightness_one_shot_summary">A fényerőbeállítás csak a képernyő bekapcsolásának pillanatában történik</string>
     <string name="data_usage_app_restrict_all">Hálózat-hozzáférés engedélyezése</string>
     <string name="data_usage_app_restrict_all_summary">Lehetővé teszi a hálózathasználatot</string>
     <string name="data_usage_app_restrict_mobile">Mobiladat</string>
@@ -92,4 +93,7 @@
     <string name="connected_tws_device_saved_title">Mentett Earbuds fülhallgatók</string>
     <string name="fast_charging_title">Gyorstöltés</string>
     <string name="fast_charging_summary">Ne engedélyezze, ha csökkentené a készülék töltés közbeni melegedését, vagy meghosszabbítaná az akkumulátor élettartamát</string>
+    <string name="wifi_setup_wizard_title">Wi-Fi-hálózat kiválasztása</string>
+    <string name="advanced_notifications_title">Haladó beállítások az értesítésekhez</string>
+    <string name="peak_refresh_rate_summary_custom">Néhány tartalomnál automatikusan megemeli a frissítés gyakoriságát 60-ról %1$d Hz-re. Növeli az akkumulátorhasználatot.</string>
 </resources>

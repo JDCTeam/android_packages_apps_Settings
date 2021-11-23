@@ -45,7 +45,6 @@
     <string name="heads_up_notifications_enabled_summary">Mostrar notificações prioritárias numa pequena janela flutuante</string>
     <string name="high_touch_sensitivity_title">Alta sensibilidade</string>
     <string name="high_touch_sensitivity_summary">Aumentar a sensibilidade do ecrã para ser manuseado quando estiver a usar luvas</string>
-    <string name="device_hostname">Nome do dispositivo</string>
     <string name="increasing_ring_volume_option_title">Toque crescente</string>
     <string name="increasing_ring_min_volume_title">Volume inicial</string>
     <string name="increasing_ring_ramp_up_time_title">Intervalo de aumento</string>
@@ -92,4 +91,5 @@
     <string name="connected_tws_device_saved_title">Auriculares Bluetooth guardados</string>
     <string name="fast_charging_title">Carregamento rápido</string>
     <string name="fast_charging_summary">Desative para reduzir a temperatura produzida pelo dispositivo enquanto carrega ou para aumentar a duração da bateria</string>
+    <string name="peak_refresh_rate_summary_custom">Aumenta automaticamente a taxa de atualização de 60 para %1$d Hz para algum conteúdo. Aumenta a utilização da bateria.</string>
 </resources>

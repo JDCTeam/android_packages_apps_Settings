@@ -45,7 +45,6 @@
     <string name="heads_up_notifications_enabled_summary">Kiçik bir üzən pəncərədə əhəmiyyətli bildirişləri görüntülə</string>
     <string name="high_touch_sensitivity_title">Yüksək toxunuş həssaslığı</string>
     <string name="high_touch_sensitivity_summary">Toxunuş həssaslığını artıraraq əlcəklə istifadəni mümkün edər</string>
-    <string name="device_hostname">Cihaz şəbəkə adı</string>
     <string name="increasing_ring_volume_option_title">Artan zəng səsi</string>
     <string name="increasing_ring_min_volume_title">Başlanğıc səsi</string>
     <string name="increasing_ring_ramp_up_time_title">Artma vaxtı</string>
@@ -68,6 +67,8 @@
     <string name="app_notification_sound_timeout_value_5_minutes">5 dəqiqə</string>
     <string name="app_notification_sound_timeout_value_15_minutes">10 dəqiqə</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 dəqiqə</string>
+    <string name="auto_brightness_one_shot_title">Tək çəkilişdə avto-parlaqlıq</string>
+    <string name="auto_brightness_one_shot_summary">Parlaqlıq nizamı yalnız ekran açılanda icra edilir</string>
     <string name="data_usage_app_restrict_all">Şəbəkə müraciətinə icazə ver</string>
     <string name="data_usage_app_restrict_all_summary">Şəbəkə istifadəsini fəallaşdır</string>
     <string name="data_usage_app_restrict_mobile">Mobil verilənlər</string>
@@ -92,4 +93,7 @@
     <string name="connected_tws_device_saved_title">Saxlanılmış Qulaqcıqlar</string>
     <string name="fast_charging_title">Sürətli enerji yığma</string>
     <string name="fast_charging_summary">Cihazın enerji yığarkən istehsal etdiyi istiliyi azaltmaq və ya batereyanın ömrünü uzatmaq üçün sıradan çıxardın</string>
+    <string name="wifi_setup_wizard_title">Wi\u2011Fi şəbəkəsini seçin</string>
+    <string name="advanced_notifications_title">Qabaqcıl bildiriş tənzimləmələri</string>
+    <string name="peak_refresh_rate_summary_custom">Bəzi məzmun üçün yeniləmə dərəcəsini 60 Hs-dən %1$d Hs-ə avtomatik yüksəldir. Batareya istifadəsini artırır.</string>
 </resources>

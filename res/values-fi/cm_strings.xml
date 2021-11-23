@@ -45,7 +45,6 @@
     <string name="heads_up_notifications_enabled_summary">Näytä tärkeät ilmoitukset pienessä kelluvassa ikkunassa</string>
     <string name="high_touch_sensitivity_title">Korkea kosketusherkkyys</string>
     <string name="high_touch_sensitivity_summary">Lisää kosketusnäytön herkkyyttä käyttääksesi laitetta käsineiden kanssa</string>
-    <string name="device_hostname">Laitteen verkkonimi</string>
     <string name="increasing_ring_volume_option_title">Voimistuva soittoääni</string>
     <string name="increasing_ring_min_volume_title">Aloitusvoimakkuus</string>
     <string name="increasing_ring_ramp_up_time_title">Nousun aika</string>
@@ -92,4 +91,5 @@
     <string name="connected_tws_device_saved_title">Tallennetut kuulokkeet</string>
     <string name="fast_charging_title">Pikalataus</string>
     <string name="fast_charging_summary">Poista käytöstä vähentääksesi laitteen tuottamaa lämpöä latauksen aikana tai pidentääksesi akun käyttöikää</string>
+    <string name="peak_refresh_rate_summary_custom">Nostaa tietyn sisällön päivitysvälin automaattisesti 60 hertsistä %1$d:een. Lisää akun käyttöä.</string>
 </resources>

@@ -25,7 +25,6 @@
     <string name="lineagelicense_title">موارد حقوقی سایانوژن‌مود</string>
     <string name="high_touch_sensitivity_title">حساسیت بالا به لمس</string>
     <string name="high_touch_sensitivity_summary">افزایش حساسیت صفحه به لمس تا هنگام پوشیدن دستکش نیز قابل استفاده باشد</string>
-    <string name="device_hostname">نام هاست دستگاه</string>
     <string name="increasing_ring_volume_option_title">صدای صعودی زنگ</string>
     <string name="increasing_ring_min_volume_title">میزان صدا هنگام شروع</string>
     <string name="increasing_ring_ramp_up_time_title">زمان افزایش صدا</string>
@@ -39,4 +38,5 @@
     <string name="touchscreen_hovering_summary">به شما اجازه می‌دهد مانند عملکرد ماوس در مرورگرهای وب، ریموت دسکتاپ و غیره، صفحه نمایش را به صورت شناور کنترل کنید</string>
     <string name="wake_when_plugged_or_unplugged_title">بیدار شدن هنگام اتصال به برق</string>
     <string name="wake_when_plugged_or_unplugged_summary">روشن شدن صفحه هنگام اتصال یا قطع اتصال منبع برق</string>
+    <string name="peak_refresh_rate_summary_custom">به‌طور خودکار سرعت بازخوانی را برای بعضی محتواها، از ۶۰ هرتز تا ۹۰ هرتز بالا می‌برد. مصرف باتری را افزایش می‌دهد.</string>
 </resources>

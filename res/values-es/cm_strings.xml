@@ -36,7 +36,6 @@
     <string name="heads_up_notifications_enabled_summary">Mostrar las notificaciones prioritarias en una pequeña ventana flotante</string>
     <string name="high_touch_sensitivity_title">Alta sensibilidad táctil</string>
     <string name="high_touch_sensitivity_summary">Incrementar la sensibilidad del panel táctil para que pueda usarse llevando guantes</string>
-    <string name="device_hostname">Nombre del dispositivo</string>
     <string name="increasing_ring_volume_option_title">Volumen de timbre ascendente</string>
     <string name="increasing_ring_min_volume_title">Volumen inicial</string>
     <string name="increasing_ring_ramp_up_time_title">Tiempo de incremento</string>
@@ -65,4 +64,5 @@
     <string name="volume_link_notification_title">Vincular tono y volumen de notificaciones</string>
     <string name="wake_when_plugged_or_unplugged_title">Encender al conectar el cargador</string>
     <string name="wake_when_plugged_or_unplugged_summary">Encender la pantalla al conectar o desconectar el cargador</string>
+    <string name="peak_refresh_rate_summary_custom">Aumenta automáticamente la frecuencia de actualización de 60 a %1$d Hz en determinados tipos de contenido. Se usará más batería.</string>
 </resources>

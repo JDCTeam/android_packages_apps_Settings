@@ -31,7 +31,6 @@
     <string name="security_settings_fingerprint_sensor_location_right">höger sida</string>
     <string name="high_touch_sensitivity_title">Hög fingerkänslighet</string>
     <string name="high_touch_sensitivity_summary">Öka tryckskärmens känslighet så att den kan användas samtidigt som du bär handskar</string>
-    <string name="device_hostname">Enhetens värdnamn</string>
     <string name="increasing_ring_volume_option_title">Ökande ljudvolym</string>
     <string name="increasing_ring_min_volume_title">Startvolym</string>
     <string name="increasing_ring_ramp_up_time_title">Upprampningstid</string>
@@ -54,4 +53,5 @@
     <string name="touchscreen_gesture_settings_title">Skärmgester</string>
     <string name="wake_when_plugged_or_unplugged_title">Vakna vid koppling</string>
     <string name="wake_when_plugged_or_unplugged_summary">Starta skärmen vid anslutning till eller frånkoppling från strömkälla</string>
+    <string name="peak_refresh_rate_summary_custom">Höjer uppdateringsfrekvensen dynamiskt från 60 till %1$d Hz för visst innehåll. Ökar batteriförbrukningen.</string>
 </resources>

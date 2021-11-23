@@ -38,7 +38,6 @@
     <string name="heads_up_notifications_enabled_summary">הראה התראות חשובות בחלון צף קטן</string>
     <string name="high_touch_sensitivity_title">רגישות גבוהה למגע</string>
     <string name="high_touch_sensitivity_summary">הגבר את רגישות מסך המגע, כך שניתן יהיה להשתמש בו בעת לבישת כפפות</string>
-    <string name="device_hostname">שם הרשת עבור המכשיר</string>
     <string name="increasing_ring_volume_option_title">עוצמת צלצול מתגברת</string>
     <string name="increasing_ring_min_volume_title">עוצמה התחלתית</string>
     <string name="increasing_ring_ramp_up_time_title">אורך זמן ההגברה</string>
@@ -69,4 +68,5 @@
     <string name="volume_link_notification_title">קשר את עוצמות הצלצול וההתראות</string>
     <string name="wake_when_plugged_or_unplugged_title">הער מסך בעת חיבור</string>
     <string name="wake_when_plugged_or_unplugged_summary">הפעל את המסך כאשר מקור חשמל מתחבר או מתנתק מהמכשיר</string>
+    <string name="peak_refresh_rate_summary_custom">‏קצב הרענון עולה באופן אוטומטי מ-60 ל-Hz‏%1$d לחלק מהתוכן. פעולה זו מגבירה את השימוש בסוללה.</string>
 </resources>

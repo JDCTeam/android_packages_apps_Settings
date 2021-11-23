@@ -40,7 +40,6 @@
     <string name="heads_up_notifications_enabled_title">การแจ้งเตือนด้านบน</string>
     <string name="high_touch_sensitivity_title">ความไวต่อสัมผัสสูง</string>
     <string name="high_touch_sensitivity_summary">เพิ่มความไวของหน้าจอสัมผัสเพื่อสามารถใช้ขณะสวมถุงมือ</string>
-    <string name="device_hostname">ชื่อโฮสต์ของอุปกรณ์</string>
     <string name="increasing_ring_volume_option_title">การเพิ่มเสียงเรียกเข้า</string>
     <string name="increasing_ring_min_volume_title">ระดับเสียงเริ่มต้น</string>
     <string name="increasing_ring_ramp_up_time_title">ระยะเวลาที่ดังเพิ่มขึ้น</string>
@@ -76,4 +75,5 @@
     <string name="wake_when_plugged_or_unplugged_title">ตื่นเมื่อเสียบปลั๊ก</string>
     <string name="wake_when_plugged_or_unplugged_summary">เปิดหน้าจอเมื่อเชื่อมต่อหรือตัดการเชื่อมต่อกับแหล่งจ่ายไฟ</string>
     <string name="connected_tws_device_saved_title">หูฟังที่บันทึกไว้</string>
+    <string name="peak_refresh_rate_summary_custom">เพิ่มอัตราการรีเฟรชจาก 60 เป็น %1$d Hz โดยอัตโนมัติสำหรับเนื้อหาบางรายการ เพิ่มการใช้งานแบตเตอรี่</string>
 </resources>
